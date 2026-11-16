@@ -1,0 +1,212 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 560 408)
+	(text "unsaved" (rect 257 -1 291 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 392 20 404)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 208 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "modular_adc_0_adc_pll_clock_clk" (rect 0 0 138 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_adc_pll_clock_clk" (rect 4 101 190 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 208 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "modular_adc_0_adc_pll_locked_export" (rect 0 0 156 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_adc_pll_locked_export" (rect 4 141 214 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 208 152)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "modular_adc_0_clock_clk" (rect 0 0 105 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_clock_clk" (rect 4 181 142 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 208 192)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "modular_adc_0_command_valid" (rect 0 0 132 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_command_valid" (rect 4 221 166 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 208 232)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(input)
+		(text "modular_adc_0_command_channel[4..0]" (rect 0 0 165 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_command_channel[4..0]" (rect 4 237 214 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 208 248)(line_width 3))
+	)
+	(port
+		(pt 0 264)
+		(input)
+		(text "modular_adc_0_command_startofpacket" (rect 0 0 166 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_command_startofpacket" (rect 4 253 214 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 208 264)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(input)
+		(text "modular_adc_0_command_endofpacket" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_command_endofpacket" (rect 4 269 202 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 208 280)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "modular_adc_0_reset_sink_reset_n" (rect 0 0 146 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_reset_sink_reset_n" (rect 4 325 196 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 208 336)(line_width 1))
+	)
+	(port
+		(pt 0 376)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 365 82 376)(font "Arial" (font_size 8)))
+		(line (pt 0 376)(pt 208 376)(line_width 1))
+	)
+	(port
+		(pt 560 72)
+		(output)
+		(text "clk_0_clk_clk" (rect 0 0 54 12)(font "Arial" (font_size 8)))
+		(text "clk_0_clk_clk" (rect 492 61 570 72)(font "Arial" (font_size 8)))
+		(line (pt 560 72)(pt 352 72)(line_width 1))
+	)
+	(port
+		(pt 560 112)
+		(output)
+		(text "clk_0_clk_reset_reset_n" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "clk_0_clk_reset_reset_n" (rect 435 101 573 112)(font "Arial" (font_size 8)))
+		(line (pt 560 112)(pt 352 112)(line_width 1))
+	)
+	(port
+		(pt 0 296)
+		(output)
+		(text "modular_adc_0_command_ready" (rect 0 0 138 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_command_ready" (rect 4 285 166 296)(font "Arial" (font_size 8)))
+		(line (pt 0 296)(pt 208 296)(line_width 1))
+	)
+	(port
+		(pt 560 152)
+		(output)
+		(text "modular_adc_0_response_valid" (rect 0 0 128 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_response_valid" (rect 400 141 568 152)(font "Arial" (font_size 8)))
+		(line (pt 560 152)(pt 352 152)(line_width 1))
+	)
+	(port
+		(pt 560 168)
+		(output)
+		(text "modular_adc_0_response_channel[4..0]" (rect 0 0 161 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_response_channel[4..0]" (rect 360 157 576 168)(font "Arial" (font_size 8)))
+		(line (pt 560 168)(pt 352 168)(line_width 3))
+	)
+	(port
+		(pt 560 184)
+		(output)
+		(text "modular_adc_0_response_data[11..0]" (rect 0 0 149 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_response_data[11..0]" (rect 375 173 579 184)(font "Arial" (font_size 8)))
+		(line (pt 560 184)(pt 352 184)(line_width 3))
+	)
+	(port
+		(pt 560 200)
+		(output)
+		(text "modular_adc_0_response_startofpacket" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_response_startofpacket" (rect 357 189 573 200)(font "Arial" (font_size 8)))
+		(line (pt 560 200)(pt 352 200)(line_width 1))
+	)
+	(port
+		(pt 560 216)
+		(output)
+		(text "modular_adc_0_response_endofpacket" (rect 0 0 159 12)(font "Arial" (font_size 8)))
+		(text "modular_adc_0_response_endofpacket" (rect 361 205 565 216)(font "Arial" (font_size 8)))
+		(line (pt 560 216)(pt 352 216)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 193 43 404 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 213 67 444 144)(font "Arial" (color 0 0 0)))
+		(text "clk_0_clk" (rect 353 43 760 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 337 67 692 144)(font "Arial" (color 0 0 0)))
+		(text "clk_0_clk_reset" (rect 353 83 796 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 316 107 674 224)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_adc_pll_clock" (rect 33 83 228 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 213 107 444 224)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_adc_pll_locked" (rect 25 123 218 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 213 147 462 304)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_clock" (rect 82 163 278 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 213 187 444 384)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_command" (rect 55 203 236 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 213 227 456 464)(font "Arial" (color 0 0 0)))
+		(text "channel" (rect 213 243 468 496)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 213 259 504 528)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 213 275 492 560)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 213 291 456 592)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_reset_sink" (rect 49 307 242 627)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 213 331 468 672)(font "Arial" (color 0 0 0)))
+		(text "modular_adc_0_response" (rect 353 123 838 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 329 147 688 304)(font "Arial" (color 0 0 0)))
+		(text "channel" (rect 317 163 676 336)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 331 179 686 368)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 292 195 662 400)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 297 211 660 432)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 179 347 388 707)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 213 371 468 752)(font "Arial" (color 0 0 0)))
+		(text " unsaved " (rect 521 392 1096 794)(font "Arial" ))
+		(line (pt 208 32)(pt 352 32)(line_width 1))
+		(line (pt 352 32)(pt 352 392)(line_width 1))
+		(line (pt 208 392)(pt 352 392)(line_width 1))
+		(line (pt 208 32)(pt 208 392)(line_width 1))
+		(line (pt 209 52)(pt 209 76)(line_width 1))
+		(line (pt 210 52)(pt 210 76)(line_width 1))
+		(line (pt 351 52)(pt 351 76)(line_width 1))
+		(line (pt 350 52)(pt 350 76)(line_width 1))
+		(line (pt 351 92)(pt 351 116)(line_width 1))
+		(line (pt 350 92)(pt 350 116)(line_width 1))
+		(line (pt 209 92)(pt 209 116)(line_width 1))
+		(line (pt 210 92)(pt 210 116)(line_width 1))
+		(line (pt 209 132)(pt 209 156)(line_width 1))
+		(line (pt 210 132)(pt 210 156)(line_width 1))
+		(line (pt 209 172)(pt 209 196)(line_width 1))
+		(line (pt 210 172)(pt 210 196)(line_width 1))
+		(line (pt 209 212)(pt 209 300)(line_width 1))
+		(line (pt 210 212)(pt 210 300)(line_width 1))
+		(line (pt 209 316)(pt 209 340)(line_width 1))
+		(line (pt 210 316)(pt 210 340)(line_width 1))
+		(line (pt 351 132)(pt 351 220)(line_width 1))
+		(line (pt 350 132)(pt 350 220)(line_width 1))
+		(line (pt 209 356)(pt 209 380)(line_width 1))
+		(line (pt 210 356)(pt 210 380)(line_width 1))
+		(line (pt 0 0)(pt 560 0)(line_width 1))
+		(line (pt 560 0)(pt 560 408)(line_width 1))
+		(line (pt 0 408)(pt 560 408)(line_width 1))
+		(line (pt 0 0)(pt 0 408)(line_width 1))
+	)
+)

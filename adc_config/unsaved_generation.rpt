@@ -1,0 +1,33 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\lclon\OneDrive\Desktop\recon\adc\adc\unsaved.qsys --block-symbol-file --output-directory=C:\Users\lclon\OneDrive\Desktop\recon\adc\adc\adc_config --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading adc/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 25.1]
+Progress: Parameterizing module clk_0
+Progress: Adding modular_adc_0 [altera_modular_adc 25.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\lclon\OneDrive\Desktop\recon\adc\adc\unsaved.qsys --synthesis=VHDL --output-directory=C:\Users\lclon\OneDrive\Desktop\recon\adc\adc\adc_config\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading adc/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 25.1]
+Progress: Parameterizing module clk_0
+Progress: Adding modular_adc_0 [altera_modular_adc 25.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved: Generating "unsaved" for QUARTUS_SYNTH
+Info: modular_adc_0: "unsaved" instantiated altera_modular_adc "modular_adc_0"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: unsaved: Done "unsaved" with 3 modules, 9 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
