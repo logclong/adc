@@ -7,8 +7,7 @@
    <irq preferredWidth="34" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/University Program/Clock,Library/Basic Functions/Clocks; PLLs and Resets,Project,Library/Interface Protocols,Library/Basic Functions,Library,Library/Interface Protocols/Transceiver PLL,Library/Basic Functions/Clocks; PLLs and Resets/PLL,Library/University Program" />
+ <library expandedCategories="Library,Project" />
  <window width="1100" height="752" x="0" y="0" />
  <generation synthesis="VHDL" path="adc_config" />
 </preferences>
