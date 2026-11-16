@@ -60,3 +60,5 @@ architecture Behavioral of adc_top is
                 modular_adc_0_adc_pll_locked_export => KEY(0),
                 areset => '0'
             );
+end Behavioral;
+
