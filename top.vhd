@@ -53,7 +53,7 @@ architecture Behavioral of adc_top is
         pll_10_inst : entity work.pll_10
             port map (
                 inclk0 => MAX10_CLK1_50,
-                c0 => clk10
+                c0 => clk10,
                 locked => locked
             );
         
